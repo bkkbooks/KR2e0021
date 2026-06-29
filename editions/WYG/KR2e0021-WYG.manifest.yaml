@@ -1,0 +1,68 @@
+canonical_identifier: bkk:krp/KR2e0021/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR2e0021/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 革除逸史
+  date: '2015-08-24 22:30:39.513217'
+  source:
+    repository: kanripo
+    path: KR2e0021
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR2e0021_000-WYG.yaml, hash: 'sha256:20f3db9325057b5c2ba0ef469718674402b2230f8da4c049a950742c7b3849bb'}
+  - {seq: 1, filename: KR2e0021_001-WYG.yaml, hash: 'sha256:9ae59b37cd30551001349fa0a2f1c3ed1fd2889fdbd78b2e703e45a6dce4d2f4'}
+  - {seq: 2, filename: KR2e0021_002-WYG.yaml, hash: 'sha256:bcf1703805f0e2d5bf1f30519e8dd7e631c19dfed27c9d52c0ac30fd6a29d32c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2e0021_000-WYG.markers.yaml, hash: 'sha256:2501f6fb67b91f8ea0ba40b90f66c5514be82bf78b651417a173d758404fc961'}
+  - {seq: 1, role: markers, filename: assets/KR2e0021_001-WYG.markers.yaml, hash: 'sha256:76e6f8f656c6b64ae722406c97f857f96a22d02936ac84e1b1c4baf4e8217104'}
+  - {seq: 2, role: markers, filename: assets/KR2e0021_002-WYG.markers.yaml, hash: 'sha256:bc3a3cef6272a608fcd08ae7c34327f43a222d94bad05489d745c92bc0237181'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2e0021_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 204
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR2e0021_WYG_000-2a
+    span:
+    - body
+    - 204
+    - 507
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2e0021_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 5466
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2e0021_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 5833
+  label: 卷二
+  type: section
+  level: 1
+hash: sha256:62643f75185395922a8721f9aac655d1094537e356e8bcd7e57df5d70dcdd756
